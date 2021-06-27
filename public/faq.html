@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Game Website</title>
+</head>
+<body>
+    <nav>
+        <a id="StudioLogo" href="/"><img src="images/RoundImagePlaceholder.png"></a>
+        <ul id="pcNav">
+            <li><a id="AboutButton" href="main.html#AboutButtonDestination"><button on>About</button></a></li>
+            <li><a id="DevJournalsButton" href="devjournals.html"><button>Dev Journals</button></a></li>
+            <li><a id="CommunityButton" href="community.html"><button>Community</button></a></li>
+            <li><a id="StudioButton" href="studio.html"><button>Studio</button></a></li>
+            <div class="AccountManagement">
+                <a href="login.html"><button>Login</button></a>
+                <button class="Hidden">Logout</button>
+                <a><img src="images/AvatarPlaceholder.png"></a>
+            </div>
+        </ul>
+        <button id="mobileNavButton" onclick="navButton()"><p>&#x02261;</p></button>
+        <ul id="mobileNav" class="Hidden">
+            <li><a id="AboutButton" href="main.html#AboutButtonDestination"><button on>About</button></a></li>
+            <li><a id="DevJournalsButton" href="devjournals.html"><button>Dev Journals</button></a></li>
+            <li><a id="CommunityButton" href="community.html"><button>Community</button></a></li>
+            <li><a id="StudioButton" href="studio.html"><button>Studio</button></a></li>
+            <div class="AccountManagement">
+                <a href="login.html"><button>Login</button></a>
+                <button class="Hidden">Logout</button>
+                <a><img src="images/AvatarPlaceholder.png"></a>
+            </div>
+        </ul>
+        <script src="./scripts/mobileNav.js"></script>
+    </nav>
+    <main>
+        <h1>Frequently Asked Questions</h1>
+
+        <ul class="FaqSections">
+            <li class="FaqSection" id="Faq1">
+                <h2>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
+                <p>A: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.</p>
+            </li>
+            <li class="FaqSection" id="Faq2">
+                <h2>Q: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium?</h2>
+                <p>A: Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                    dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            </li>
+            <li class="FaqSection" id="Faq3">
+                <h2>Q: Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur?</h2>
+                <p>A: Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            </li>
+        </div>
+    </main>
+</body>
+</html>

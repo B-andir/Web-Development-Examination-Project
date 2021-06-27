@@ -1,0 +1,25 @@
+main {
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.514);
+    width: 40%;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 6px;
+    color: rgb(192, 192, 192);
+    padding: 13px 0 13px 0;
+    font-size: 14px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+}
+
+main img {
+    width: 15%;
+    margin-top: 25px;
+}
+
+main:hover {
+    box-shadow: 0px 0px 20px 2px rgba(70, 158, 230, 0.753);
+    border-color: rgba(67, 149, 216, 0.733);
+    background-color: rgba(49, 49, 49, 0.226);
+    color: rgba(255, 255, 255, 0.822);
+}

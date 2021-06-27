@@ -1,0 +1,142 @@
+ul#DevJournalButtons {
+    text-align: center;
+    width: 45%;
+    padding-inline-start: 0;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(94, 94, 94);
+    padding: 40px 50px 0 50px;
+    border: 1px solid rgb(54, 54, 54);
+    border-radius: 12px;
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.308);
+}
+
+.DevJournalButton {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    border-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: rgb(105, 105, 105);
+    border-radius: 3%/50%;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 4px 6px 10px 0 rgba(0, 0, 0, 0.342);
+    font-family: Georgia, Verdana, 'Times New Roman', Times, serif;
+}
+
+.DevJournalButton p {
+    font-size: 16px;
+}
+
+.DevJournalButton:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+#BackButton {
+    width: 10%;
+    height: 40px;
+    margin: 50px 0 0 8%;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    background-color: rgba(50, 51, 54, 0.397);
+    border: 1px solid rgb(37, 37, 37);
+    color: rgb(202, 202, 202);
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px 0 rgba(0, 0, 0, 0.247);
+}
+
+#BackButton:hover {
+    box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.247);
+    background-color: rgba(59, 60, 63, 0.397);
+    text-decoration: underline;
+}
+
+#DevJournalsFull {
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(151, 151, 151);
+    padding: 2.5%;
+    border-radius: 20px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: rgba(51, 51, 51, 0.438);
+    border-radius: 20px;
+    box-shadow: 2px 3px 12px 0 rgba(0, 0, 0, 0.438);
+}
+
+.DevJournalFull {
+    padding: 5%;
+    margin: auto;
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.329);
+    border-radius: 20px;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+}
+
+.DevJournalFull:hover {
+    border-color: rgba(41, 139, 219, 0.432);
+}
+
+/* Class to assign and revoke to elements as they should appear and dissapear */
+.Hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #DevJournalButtons {
+        margin-top: 30px !important;
+        margin-bottom: 5px !important;
+        width: 60% !important;
+    }
+
+    #DevJournalButtons .DevJournalButton {
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #BackButton {
+        width: 20%;
+    }
+
+    #DevJournalsFull {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    #DevJournalButtons {
+        padding: 20px 20px 0 20px !important;
+        width: 80% !important;
+    }
+
+    #DevJournalButtons li button {
+        width: 100%;
+        border-radius: 8%/35%;
+    }
+
+    #BackButton {
+        width: 25%;
+        font-size: 17px;
+    }
+
+    .DevJournalFull {
+        font-size: 16px;
+        color: black;
+    }
+
+}

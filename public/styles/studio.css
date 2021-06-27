@@ -1,0 +1,12 @@
+main {
+    color: ivory;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    background-color: rgba(49, 49, 49, 0.514);
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 8%;
+    border-radius: 4%/50%;
+    border: 1px solid rgb(37, 37, 37);
+}

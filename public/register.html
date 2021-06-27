@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <a href="login.html"><button>Back</button></a>
+    </nav>
+    <main>
+        <form action="/register" method="POST" id="register">
+            <fieldset>
+                <input type="text" id="username" name="username" required placeholder="Username:">
+                <input type="email" id="email" name="email" required placeholder="Email:">
+                <input type="password" id="password" name="password" required placeholder="Password:">
+                <input type="password" id="password2" name="password2" required placeholder="Repeat Password:">
+                <div class="labelContanier">
+                    <label for="newsletterSignup">Do you want to sign up for emails with updates on development?</label>
+                    <input type="checkbox" id="newsletterSignup" name="newsletterSignup" value="true">
+                </div>
+                <input id="registerInput" type="submit" value="Register"><br>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

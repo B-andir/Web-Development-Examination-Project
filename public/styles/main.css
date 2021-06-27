@@ -1,0 +1,181 @@
+/* Global CSS file, for general background and navigation bar */
+body {margin: 0;}
+
+html {background-color: rgb(66, 68, 71)}  /* Can also be written as #424447 */
+
+button {cursor: pointer;}
+
+#mobileNavButton{
+    display: none;
+}
+
+nav  {
+    position: -webkit-sticky;  /* For Safari */
+    position: sticky;
+    top: 0px;
+    background-color: rgba(66, 68, 71, 0.925);
+    height: 90px;
+    box-shadow: 0 5px 15px 8px rgba(0, 0, 0, 0.301);
+    z-index: 5;
+}
+
+#StudioLogo img {
+    width: 65px;
+    margin: 12px 0 0 2.2%;
+}
+
+ul {list-style-type: none;}
+
+#pcNav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: -82px;
+}
+
+nav #pcNav li {
+    display: inline-block;
+    width: 22%;
+    height: 100%;
+}
+
+nav #pcNav button {font-family: Verdana;}
+
+nav #pcNav li button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 65, 68, 0);
+    font-size: 19px;
+    border-style: none;
+    border-right-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-width: 2px;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+}
+
+nav #pcNav li #AboutButton button {
+    border-left-style: solid;
+}
+
+nav #pcNav li button:hover {
+    background-color: rgba(49, 51, 54, 0.397);
+    font-size: 20px;
+    color: white;
+}
+
+.AboutButton button {border-left-style: solid;}
+
+.AccountManagement {
+    float: right;
+    margin-top: 5px;
+    margin-left: 1.8%;
+    width: 150px;
+    height: 80px;
+}
+
+.AccountManagement img {
+    width: 60px;
+    margin: 7px 0 0 55%;
+}
+
+.AccountManagement button {
+    float: left;
+    position: absolute;
+    margin-top: 30px;
+    width: fit-content;
+    text-align: center;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.AccountManagement button:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.Hidden {display: none;}
+
+.Inline {display: inline-block;}
+
+@media only screen and (max-width: 750px) {
+
+    #pcNav {
+        display: none;
+    }
+
+    #mobileNavButton {
+        display: inline;
+        float: right;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        margin-right: 5%;
+        margin-top: 20px;
+        background-color: rgb(192, 192, 192);
+        border: 2px solid rgb(51, 51, 51);
+    }
+
+    #mobileNavButton p {
+        margin: -5px auto 0 auto;
+        font-size: 50px;
+        color: rgb(66, 68, 71);
+    }
+
+    #mobileNavButton:focus {
+        box-shadow: 0px 0px 20px 2px rgba(70, 158, 230, 0.753);
+        border-color: rgba(67, 149, 216, 0.733);
+    }
+
+    #mobileNav {
+        padding-left: 0;
+        width: 40%;
+        padding: 0 30%;
+        margin-top: 9px;
+        background-color: rgba(66, 68, 71, 0.950);
+    }
+
+    #mobileNav li {
+        width: 100%;
+        width: 100%;
+        /* border: 1px black solid;
+        border-top-style: none;
+        border-bottom-style: none; */
+    }
+
+    #mobileNav li button {
+        width: 100%;
+        height: 60px;
+        margin: 15px 5%;
+        background-color: rgba(63, 65, 68, 0.25);
+        font-size: 19px;
+        border: 2px solid rgb(51, 51, 51);
+        border-top-style: none;
+        border-bottom-style: none;
+        color: rgb(207, 207, 207);
+        text-transform: uppercase;
+    }
+
+    #mobileNav .AccountManagement {
+        position: relative;
+        float: left;
+        width: 120%;
+        margin-left: -5%;
+    }
+
+    #mobileNav .AccountManagement img {
+        margin: 14px 0 0 60%;
+        width: 40px;
+    }
+
+    #mobileNav .AccountManagement button {
+        font-size: large;
+        text-decoration: underline;
+    }
+
+}

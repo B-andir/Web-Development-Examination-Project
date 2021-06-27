@@ -1,0 +1,15 @@
+Gå antingen in på hemsidan https://daniel-schoolproject.herokuapp.com för den publika versionen
+
+Eller för att starta webbservern lokalt, öppna kommandotolken och skriv in följande:
+
+*** OBS Node.js måste vara installerat på datorn ***
+
+> cd [sökväg för mappen]
+
+> npm run start 
+   * eller *  
+> node index
+
+Vänta på meddelandet: 
+"Server is running on port 5000" 
+Sök sedan på "localhost:5000" som url i valfri webbläsare.
